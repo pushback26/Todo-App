@@ -41,6 +41,10 @@ function App() {
     setTodos(todos.filter(todo => todo.id !== id))
   }
 
+  const removeTask = () => {
+    setTodos([])
+  }
+
   return (
     <div className="App">
      <header className='App-header'>
@@ -52,6 +56,7 @@ function App() {
        todos={todos}
        toggleComplete={toggleComplete}
        removeTodo={removeTodo}
+       removeTask={removeTask}
        />
      </header>
     </div>

@@ -21,7 +21,7 @@ function Todos({ todo, toggleComplete, removeTodo }) {
             // color: 'white',
             textDecoration: todo.completed ? 'line-through' : null
         }}>{todo.task}</li>
-        <button onClick={removeClickHandler}>X</button>
+        <button onClick={removeClickHandler}>Remove</button>
     </div>
   )
 }

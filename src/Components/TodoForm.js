@@ -35,7 +35,8 @@ function TodoForm({ addTodo }) {
                 background: '#FABB51', 
                 border: 'none', 
                 borderRadius: '5px', 
-                padding: '3px 10px'}}
+                padding: '3px 10px',
+                margin: '5px'}}
             type='submit'>Submit
         </button>
     </form>
