@@ -28,14 +28,16 @@ function TodoForm({ addTodo }) {
         type='text'
         value={todo.task}
         onChange={taskInputHandler}
-        style={{ width: '100%', height: '2rem', border: 'none', borderRadius: '3px'}}
+        style={{ width: '50%', height: '2rem', borderRadius: '3px'}}
         />
         <button  
             style={{
-                background: '#FABB51', 
+                color: '#fff',
+                fontSize: '1rem',
+                background: '#396EB0', 
                 border: 'none', 
                 borderRadius: '5px', 
-                padding: '3px 10px',
+                padding: '7px 10px',
                 margin: '5px'}}
             type='submit'>Submit
         </button>

@@ -10,7 +10,7 @@ function Todos({ todo, toggleComplete, removeTodo }) {
     }
 
   return (
-    <div style={{display: 'flex'}}>
+    <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '100%'}}>
         <input 
             type='checkbox' 
             onClick={checkboxClickHandler}
